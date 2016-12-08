@@ -199,6 +199,19 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script>
+      function initMap() {
+        var uluru = {lat: 35.6585573, lng: 139.4764334};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
 			<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnJ6HEblwBS-ZGlXA8emMGGet5RYQT3ng&callback=initMap">
     </script>
