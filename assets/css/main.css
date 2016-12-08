@@ -2323,8 +2323,8 @@
 		/* Basic */
 
 			body {
-				background-color: #3126f5;
-				background-image: url("../../images/bg-alt.jpg");
+				background-color: #ffffff;
+				//background-image: url("../../images/bg-alt.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
